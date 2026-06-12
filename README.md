@@ -10,8 +10,9 @@
 - [Tech Stack](#tech-stack)
 - [License](#license)
 
-## ✨ Features
+## ✨ Timeline
 - ✅ Lists what your project **can do**
+ 
 - ✅ Use emojis to make it **visual**
 - ✅ Break features into bullet points
 
