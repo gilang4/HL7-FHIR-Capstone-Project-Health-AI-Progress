@@ -12,7 +12,10 @@
 
 ## ✨ Timeline
 - ✅ Lists what your project **can do**
- 
+- ✅ Lists what your project **can do**
+- ✅ Lists what your project **can do**
+- ✅ Lists what your project **can do**
+-  
 - ✅ Use emojis to make it **visual**
 - ✅ Break features into bullet points
 
