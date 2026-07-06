@@ -1,0 +1,22 @@
+{
+  "patient_id": "d4fb3bba-73a9-4b82-a0bc-678d47f386b4",
+  "summary": "The patient (DOB 1980-08-31) has multiple recorded conditions including Acute viral pharyngitis (disorder), Hypertension, Viral sinusitis (disorder) recorded multiple times, Miscarriage in first trimester, Chronic pain, Body mass index 30+ - obesity (finding), Chronic intractable migraine without aura, and Impacted molars. Viral sinusitis is listed repeatedly in the problem list. Recorded medications include Hydrochlorothiazide 25 MG, Camila 28 Day Pack, 1 ML medroxyprogesterone acetate 150 MG/ML Injection, and NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring. No additional clinical details or treatment plans are provided in the supplied data.",
+  "conditions": [
+    "Acute viral pharyngitis (disorder)",
+    "Hypertension",
+    "Viral sinusitis (disorder)",
+    "Viral sinusitis (disorder)",
+    "Miscarriage in first trimester",
+    "Chronic pain",
+    "Viral sinusitis (disorder)",
+    "Body mass index 30+ - obesity (finding)",
+    "Chronic intractable migraine without aura",
+    "Impacted molars"
+  ],
+  "medications": [
+    "Hydrochlorothiazide 25 MG",
+    "Camila 28 Day Pack",
+    "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+    "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring"
+  ]
+}
