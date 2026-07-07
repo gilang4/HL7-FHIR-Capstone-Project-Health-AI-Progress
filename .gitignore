@@ -1,0 +1,13 @@
+# OAuth 2.0 credentials
+credentials.json
+token.json
+run_model.py
+ai_summarizer.py_OLDandWorking
+
+# Environment variables (secrets)
+.env
+.env.*
+
+# Python cache files
+__pycache__/
+*.pyc
