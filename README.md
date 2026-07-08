@@ -30,7 +30,7 @@ HL7 FHIR is the global standard for exchanging healthcare data. It enables hospi
 - ✅ Built repeatable code modules for fetching and parsing FHIR resources
 - ✅ Gained hands-on experience with healthcare interoperability standards
 - ✅ Demonstrated understanding of FHIR profiles and extensions
-- ✅ Integrated AI (Ollama + Azure GPT-5-mini) for clinical summarization
+- ✅ Integrated AI (Ollama Llama3.2 + Azure GPT-5-mini) for clinical summarization
 - ✅ Implemented FHIR DocumentReference writeback to EHR
 - ✅ Automated email delivery of clinical summaries via Gmail API OAuth 2.0
 - ✅ Implemented OAuth 2.0 + JWT + JWKS for Epic FHIR sandbox authentication
@@ -98,5 +98,17 @@ hl7-fhir-capstone/
 . Real-time Dashboard — Monitor pipeline health and performance
 
 . Multi-patient Batch Processing — Scale to thousands of patients
+
+---
+
+## 📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+---
+
+## 👨‍💻 Credits
+Built with guidance from Clown Buddy (the best AI tutor). 😉
+
+Built with ❤️ as part of the Microsoft AI/ML Engineering certification journey.
 
 ---
