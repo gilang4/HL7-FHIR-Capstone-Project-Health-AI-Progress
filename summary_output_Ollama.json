@@ -1,0 +1,56 @@
+{
+  "patient_id": "d4fb3bba-73a9-4b82-a0bc-678d47f386b4",
+  "summary": "The patient has a history of multiple conditions, including acute viral pharyngitis, hypertension, and chronic pain. There is evidence of obesity with a body mass index of 30+. The patient's blood pressure was elevated on two visits, while their pain severity varied across different encounters. Laboratory results show a range of values, but no significant trends are evident. The patient has been prescribed several medications to manage their conditions.",
+  "conditions": [
+    "Acute viral pharyngitis",
+    "Hypertension",
+    "Chronic pain"
+  ],
+  "medications": [
+    "Hydrochlorothiazide 25 MG",
+    "Camila 28 Day Pack",
+    "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+    "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring"
+  ],
+  "labs": [
+    {
+      "name": "Estimated Glomerular Filtration Rate",
+      "value": 65.6254982213069,
+      "date": "2019-03-03T22:30:06+00:00"
+    },
+    {
+      "name": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+      "value": 10.198827676180203,
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "name": "Total Cholesterol",
+      "value": 166.0116376172619,
+      "date": "2019-03-03T22:30:06+00:00"
+    }
+  ],
+  "vitals": [
+    {
+      "name": "Body Mass Index",
+      "value": 29.591068564630632,
+      "date": "2013-02-24T22:30:06+00:00"
+    },
+    {
+      "name": "Pain severity - 0-10 verbal numeric rating [Score]",
+      "value": 3.9668279411832366,
+      "date": "2019-03-03T22:30:06+00:00"
+    }
+  ],
+  "encounters": [
+    {
+      "id": "d092011f-cb35-4609-bdb2-5bf07f7a2cb5",
+      "status": "finished",
+      "date": "2011-12-04T22:30:06+00:00"
+    },
+    {
+      "id": "f0b99fa2-7cdb-4e66-9c40-d3d7fff8036e",
+      "status": "finished",
+      "date": "2016-01-23T22:30:06+00:00"
+    }
+  ]
+}

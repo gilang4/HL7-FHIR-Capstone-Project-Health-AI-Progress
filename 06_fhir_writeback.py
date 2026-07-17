@@ -10,8 +10,7 @@ FHIR_BASE_URL = "https://r4.smarthealthit.org"
 
 
 def write_document_reference(patient_data: dict, summary: str) -> str:
-    
-    
+        
     """
     POSTs the AI summary as a FHIR DocumentReference resource.
     Returns the FHIR ID of the created resource.
@@ -117,6 +116,6 @@ Opern browser and run this code:
 
 https://r4.smarthealthit.org/DocumentReference/XXXXXXXX
 
-https://r4.smarthealthit.org/DocumentReference/4755114
+https://r4.smarthealthit.org/DocumentReference/4759042
 
 """

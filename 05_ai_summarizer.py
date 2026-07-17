@@ -1,6 +1,4 @@
 
-
-
 import json
 import re
 from langchain_ollama import OllamaLLM
@@ -8,14 +6,14 @@ from langchain_core.prompts import PromptTemplate
 
 
 def load_patient_data(filepath="patient_summary.json"):
-    """Reads the FHIR JSON file that Project 1 created."""
+    """Reads the FHIR JSON file that 03_ created."""
     with open(filepath, "r") as f:
         return json.load(f)
 
 def generate_summary(patient_data: dict) -> dict:
     """
     Sends patient JSON fields to Llama3.2 and returns a structured JSON summary.
-    Returns: dict with keys: patient_id, summary, conditions, medications
+    Returns: dict with keys: patient_id, summary, conditions, medications, labs, vitals, encounters
     """
     
     llm = OllamaLLM(model="llama3.2", temperature=0)
@@ -126,7 +124,7 @@ Make sure the last three lists match the input exactly.
             "encounters": patient_data.get("encounters", [])
         }
 
-def save_summary_output(summary_json: dict, filepath="summary_output.json"):
+def save_summary_output(summary_json: dict, filepath="summary_output_Ollama.json"):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(summary_json, f, indent=2)
     print(f"✅ Saved summary to {filepath}")

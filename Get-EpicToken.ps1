@@ -1,31 +1,30 @@
-# --- 1. CONFIGURATION ---
-# Paste your Epic Client ID here
-#$clientId = "2c64db89-3d78-46a2-b4c3-381e414bd7d9"
-$clientId = "4e161c9b-fc28-4058-8fd7-6fec1ed0a188"
-#$clientId = "2c907a20-4901-4d01-9111-7a20239a59ec"
+    # --- 1. CONFIGURATION ---
+    # Paste Epic Client ID here
+
+$clientId = "7defd2fb-f768-4196-8e1a-bebae4975b68"
 
 
-# This MUST match the Redirect URI you saved in Epic
+    # This MUST match the Redirect URI saved in Epic
 $redirectUri = "https://oauth.pstmn.io/v1/callback"
 
-# Scopes required for your Python script to read Encounters and write DocumentReferences
-# Change this line in your PowerShell script:
+    # Scopes required for Python script to read Encounters and write DocumentReferences
+    # Change this line in your PowerShell script:
 $scopes = "openid user/Patient.read user/Encounter.read user/DocumentReference.write"
 # $scopes = "openid fhirUser launch/patient patient/Patient.read patient/Encounter.read patient/DocumentReference.write"
 
-# Epic Endpoints
+    # Epic Endpoints
 $authBaseUrl = "https://fhir.epic.com/interconnect-fhir-oauth/oauth2/authorize"
 $tokenUrl    = "https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token"
 
-# --- 2. OPEN BROWSER FOR LOGIN ---
-# Construct the full authorization URL
+    # --- 2. OPEN BROWSER FOR LOGIN ---
+    # Construct the full authorization URL
 $encodedRedirect = [System.Uri]::EscapeDataString($redirectUri)
 
 $encodedScopes   = [System.Uri]::EscapeDataString($scopes)
 
 $fullAuthUrl = "$($authBaseUrl)?response_type=code&client_id=$($clientId)&redirect_uri=$($encodedRedirect)&scope=$($encodedScopes)&state=12345"
 
-# ADD THIS LINE RIGHT HERE:
+    # ADD THIS LINE RIGHT HERE:
 Write-Host "DEBUG URL: $fullAuthUrl" -ForegroundColor Magenta
 
 
@@ -64,8 +63,8 @@ try {
     Write-Host "PATIENT ID (from token):" -ForegroundColor White
     Write-Host $tokenResponse.patient -ForegroundColor Yellow
     Write-Host "--------------------------------------------------" -ForegroundColor DarkGray
-    
-    # Optional: Save the token to a text file so you don't have to copy-paste it manually
+            
+        # Optional: Save the token to a text file so you don't have to copy-paste it manually
     $tokenResponse.access_token | Out-File -FilePath "epic_token.txt" -NoNewline
     Write-Host "`n💾 Token also saved to 'epic_token.txt' in this folder." -ForegroundColor Cyan
 

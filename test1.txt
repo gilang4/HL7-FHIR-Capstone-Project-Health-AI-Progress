@@ -1,0 +1,29 @@
+
+
+```plaintext
+        [ SCRIPT ]
+      │
+      ├─ 1. Generates a JWT (JSON Web Token) signed with YOUR private key
+      │
+      ├─ 2. POSTs the JWT to Epic's token endpoint
+      │      POST /oauth2/token
+      │      {
+      │        "grant_type": "client_credentials",
+      │        "client_assertion_type": "urn:ietf:params:oauth:client-assertion-type:jwt-bearer",
+      │        "client_assertion": "<your_signed_JWT>"
+      │      }
+      │
+      └─ 3. Epic verifies your signature and returns an Access Token
+             └─> Saves to epic_token.txt
+```
+             
+    Generate a Public/Private Key Pair on your machine (using PowerShell or OpenSSL). You keep the private key secret; you give Epic the public key.
+      1. Create a new Epic App configured for "Backend Services" audience.
+      2. Upload your Public Key (in JWK or PEM format) to your Epic App settings.
+      3. Update your PowerShell script to generate a signed JWT and exchange it for a token.
+      4. Once this is set up, you will never have to deal with the FHIR account being locked again. You can run .\Get-EpicToken.ps1 at 3 AM on a Sunday and it will just work.
+
+    By switching to Backend Services, we are completely throwing away the browser, the shared FHIR password, and the Postman callback URL. Instead, we will use cryptographic keys (a digital lock and key) that only you possess.
+
+    Install the required Python cryptography library:
+         pip install cryptography PyJWT requests

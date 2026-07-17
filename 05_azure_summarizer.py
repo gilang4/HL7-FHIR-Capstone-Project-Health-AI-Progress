@@ -145,7 +145,7 @@ Make sure the lists match the input exactly.
     # ============================================================
     # 💾 SAVE OUTPUT
     # ============================================================
-def save_summary_output(summary_json: dict, filepath="summary_output.json"):
+def save_summary_output(summary_json: dict, filepath="summary_output_AzureGPT.json"):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(summary_json, f, indent=2)
     print(f"✅ Saved to {filepath}")

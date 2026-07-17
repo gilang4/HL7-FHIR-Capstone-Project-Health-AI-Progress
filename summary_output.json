@@ -1,6 +1,6 @@
 {
   "patient_id": "64cee79e-2414-482a-94e7-e7223936f904",
-  "summary": "The patient (DOB 1953-07-11) has documented conditions including Viral sinusitis, Osteoporosis, Acute viral pharyngitis (listed twice), Anemia, and Prediabetes. Medication list includes Alendronic acid 10 MG Oral Tablet. Laboratory data show Hemoglobin A1c measurements between 5.8296822753908435% (2020-11-29) and 6.314703848138068% (2014-10-26); creatinine values range from 0.920615371548147 mg/dL (2018-11-18) to 1.144636390445751 mg/dL (2013-10-20). Vital signs show a decrease in BMI from about 30.08 kg/m2 in earlier records (2011\u20132014) to 27.95 kg/m2 in 2019, and body weight decreased from 95.10976190187029 kg (2013-10-20) to 88.37907566862211 kg (2017-11-12 and 2018-11-18).",
+  "summary": "Patient DOB 1953-07-11 with diagnoses including Viral sinusitis, Osteoporosis, Acute viral pharyngitis (listed twice), Anemia, and Prediabetes, and prescribed Alendronic acid 10 MG Oral Tablet. Hemoglobin A1c values range from 5.8296822753908435% (2020-11-29) to 6.314703848138068% (2014-10-26), with most results clustered around the mid-5 to low-6% range and a peak in 2014. Body weight decreased from 95.10976190187029 kg in 2013-10-20 to 88.37907566862211 kg by 2017-11-12/2018-11-18, and BMI values decreased from approximately 30.08 kg/m2 in earlier measurements to 27.95 kg/m2 by 2019-11-24. Creatinine measurements decreased from 1.144636390445751 mg/dL in 2013-10-20 to 0.920615371548147 mg/dL in 2018-11-18; triglycerides showed a modest increase from 133.49762134721632 mg/dL in 2012-10-14 to 149.78503146050113 mg/dL in 2015-11-01.",
   "conditions": [
     "Viral sinusitis (disorder)",
     "Osteoporosis (disorder)",
@@ -13,309 +13,59 @@
     "Alendronic acid 10 MG Oral Tablet"
   ],
   "labs": [
-    {
-      "name": "Sodium",
-      "value": 142.49205374280115,
-      "unit": "mmol/L",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "name": "Creatinine",
-      "value": 1.144636390445751,
-      "unit": "mg/dL",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "name": "Carbon Dioxide",
-      "value": 22.27782610166904,
-      "unit": "mmol/L",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "name": "Triglycerides",
-      "value": 149.78503146050113,
-      "unit": "mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 5.86931334018925,
-      "unit": "%",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "name": "Chloride",
-      "value": 101.50275808972849,
-      "unit": "mmol/L",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Calcium",
-      "value": 9.68205976090713,
-      "unit": "mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Creatinine",
-      "value": 0.920615371548147,
-      "unit": "mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Glucose",
-      "value": 89.36554686211187,
-      "unit": "mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Triglycerides",
-      "value": 133.49762134721632,
-      "unit": "mg/dL",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 5.831297597943,
-      "unit": "%",
-      "date": "2011-10-09T03:32:04+00:00"
-    },
-    {
-      "name": "Low Density Lipoprotein Cholesterol",
-      "value": 95.83978281581741,
-      "unit": "mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 5.8296822753908435,
-      "unit": "%",
-      "date": "2020-11-29T03:32:04+00:00"
-    },
-    {
-      "name": "Creatinine",
-      "value": 1.0303557539369281,
-      "unit": "mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Glucose",
-      "value": 71.21544348824092,
-      "unit": "mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 6.314703848138068,
-      "unit": "%",
-      "date": "2014-10-26T03:32:04+00:00"
-    },
-    {
-      "name": "Calcium",
-      "value": 9.46164570470423,
-      "unit": "mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 6.1211897350241085,
-      "unit": "%",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "name": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": 5.968907727265135,
-      "unit": "%",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "name": "Calcium",
-      "value": 8.915795121552032,
-      "unit": "mg/dL",
-      "date": "2013-10-20T03:32:04+00:00"
-    }
+    "Sodium: 142.49205374280115 mmol/L (date: 2013-10-20T03:32:04+00:00)",
+    "Creatinine: 1.144636390445751 mg/dL (date: 2013-10-20T03:32:04+00:00)",
+    "Carbon Dioxide: 22.27782610166904 mmol/L (date: 2013-10-20T03:32:04+00:00)",
+    "Triglycerides: 149.78503146050113 mg/dL (date: 2015-11-01T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 5.86931334018925 % (date: 2019-11-24T03:32:04+00:00)",
+    "Chloride: 101.50275808972849 mmol/L (date: 2018-11-18T03:32:04+00:00)",
+    "Calcium: 9.68205976090713 mg/dL (date: 2018-11-18T03:32:04+00:00)",
+    "Creatinine: 0.920615371548147 mg/dL (date: 2018-11-18T03:32:04+00:00)",
+    "Glucose: 89.36554686211187 mg/dL (date: 2018-11-18T03:32:04+00:00)",
+    "Triglycerides: 133.49762134721632 mg/dL (date: 2012-10-14T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 5.831297597943 % (date: 2011-10-09T03:32:04+00:00)",
+    "Low Density Lipoprotein Cholesterol: 95.83978281581741 mg/dL (date: 2015-11-01T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 5.8296822753908435 % (date: 2020-11-29T03:32:04+00:00)",
+    "Creatinine: 1.0303557539369281 mg/dL (date: 2015-11-01T03:32:04+00:00)",
+    "Glucose: 71.21544348824092 mg/dL (date: 2015-11-01T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 6.314703848138068 % (date: 2014-10-26T03:32:04+00:00)",
+    "Calcium: 9.46164570470423 mg/dL (date: 2015-11-01T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 6.1211897350241085 % (date: 2013-10-20T03:32:04+00:00)",
+    "Hemoglobin A1c/Hemoglobin.total in Blood: 5.968907727265135 % (date: 2012-10-14T03:32:04+00:00)",
+    "Calcium: 8.915795121552032 mg/dL (date: 2013-10-20T03:32:04+00:00)"
   ],
   "vitals": [
-    {
-      "name": "Body Height",
-      "value": 177.8159251493942,
-      "unit": "cm",
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "name": "Body Weight",
-      "value": 88.37907566862211,
-      "unit": "kg",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "1.7959303888080878 {score}",
-      "unit": null,
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Body Mass Index",
-      "value": 27.951694932207186,
-      "unit": "kg/m2",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "name": "Blood Pressure",
-      "value": "Unknown",
-      "unit": null,
-      "date": "2015-11-01T03:32:04+00:00"
-    },
-    {
-      "name": "Oral temperature",
-      "value": 37.60842896131264,
-      "unit": "Cel",
-      "date": "2013-07-20T03:32:04+00:00"
-    },
-    {
-      "name": "Oral temperature",
-      "value": 37.34014299164179,
-      "unit": "Cel",
-      "date": "2018-06-07T03:32:04+00:00"
-    },
-    {
-      "name": "Body Weight",
-      "value": 95.10976190187029,
-      "unit": "kg",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "name": "Body Mass Index",
-      "value": 30.080412469167744,
-      "unit": "kg/m2",
-      "date": "2014-10-26T03:32:04+00:00"
-    },
-    {
-      "name": "Body Height",
-      "value": 177.8159251493942,
-      "unit": "cm",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "name": "Body Mass Index",
-      "value": 29.671043712059944,
-      "unit": "kg/m2",
-      "date": "2016-11-06T03:32:04+00:00"
-    },
-    {
-      "name": "Blood Pressure",
-      "value": "Unknown",
-      "unit": null,
-      "date": "2011-10-09T03:32:04+00:00"
-    },
-    {
-      "name": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "0.5533201936356509 {score}",
-      "unit": null,
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "name": "Body Height",
-      "value": 177.8159251493942,
-      "unit": "cm",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "name": "Body Mass Index",
-      "value": 30.080412469167744,
-      "unit": "kg/m2",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "name": "Body Mass Index",
-      "value": 30.080412469167744,
-      "unit": "kg/m2",
-      "date": "2011-10-09T03:32:04+00:00"
-    },
-    {
-      "name": "Blood Pressure",
-      "value": "Unknown",
-      "unit": null,
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "name": "Blood Pressure",
-      "value": "Unknown",
-      "unit": null,
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "name": "Body Weight",
-      "value": 88.37907566862211,
-      "unit": "kg",
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "name": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "3.8998357977455593 {score}",
-      "unit": null,
-      "date": "2014-10-26T03:32:04+00:00"
-    }
+    "Body Height: 177.8159251493942 cm (date: 2017-11-12T03:32:04+00:00)",
+    "Body Weight: 88.37907566862211 kg (date: 2018-11-18T03:32:04+00:00)",
+    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.7959303888080878 {score} (date: 2018-11-18T03:32:04+00:00)",
+    "Body Mass Index: 27.951694932207186 kg/m2 (date: 2019-11-24T03:32:04+00:00)",
+    "Blood Pressure: Unknown (date: 2015-11-01T03:32:04+00:00)",
+    "Oral temperature: 37.60842896131264 Cel (date: 2013-07-20T03:32:04+00:00)",
+    "Oral temperature: 37.34014299164179 Cel (date: 2018-06-07T03:32:04+00:00)",
+    "Body Weight: 95.10976190187029 kg (date: 2013-10-20T03:32:04+00:00)",
+    "Body Mass Index: 30.080412469167744 kg/m2 (date: 2014-10-26T03:32:04+00:00)",
+    "Body Height: 177.8159251493942 cm (date: 2019-11-24T03:32:04+00:00)",
+    "Body Mass Index: 29.671043712059944 kg/m2 (date: 2016-11-06T03:32:04+00:00)",
+    "Blood Pressure: Unknown (date: 2011-10-09T03:32:04+00:00)",
+    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 0.5533201936356509 {score} (date: 2017-11-12T03:32:04+00:00)",
+    "Body Height: 177.8159251493942 cm (date: 2018-11-18T03:32:04+00:00)",
+    "Body Mass Index: 30.080412469167744 kg/m2 (date: 2012-10-14T03:32:04+00:00)",
+    "Body Mass Index: 30.080412469167744 kg/m2 (date: 2011-10-09T03:32:04+00:00)",
+    "Blood Pressure: Unknown (date: 2017-11-12T03:32:04+00:00)",
+    "Blood Pressure: Unknown (date: 2019-11-24T03:32:04+00:00)",
+    "Body Weight: 88.37907566862211 kg (date: 2017-11-12T03:32:04+00:00)",
+    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.8998357977455593 {score} (date: 2014-10-26T03:32:04+00:00)"
   ],
   "encounters": [
-    {
-      "id": "8581bec0-6912-45af-bc8d-deb3482dff1a",
-      "type": "AMB",
-      "date": "2016-11-22T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "c1dd3e7e-5e07-4f84-b0dc-e2cc083275e8",
-      "type": "AMB",
-      "date": "2018-06-07T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "985a13d6-2b7c-43df-ae36-b190ebe6f556",
-      "type": "AMB",
-      "date": "2013-07-20T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "2d51e6e0-9f2e-415d-a7cc-5ed052a538f2",
-      "type": "AMB",
-      "date": "2016-11-06T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "bbac3b1e-0ca6-4cef-aad9-48d03b2bdf8f",
-      "type": "AMB",
-      "date": "1973-07-08T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "7f40634d-c961-495a-9dc5-fcb5a5f0f884",
-      "type": "AMB",
-      "date": "2013-10-20T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "d269ed69-6678-49e7-b155-75df617f8ae6",
-      "type": "AMB",
-      "date": "2011-10-09T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "cfdd6e1f-545b-4543-9557-2c0fac115583",
-      "type": "AMB",
-      "date": "2020-11-29T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "90552860-e6da-409b-9372-4f5b55bfd8d9",
-      "type": "AMB",
-      "date": "2018-11-18T03:32:04+00:00",
-      "status": "finished"
-    },
-    {
-      "id": "247cc8e1-e213-430d-9e6c-a83a16fe30d0",
-      "type": "AMB",
-      "date": "2015-11-01T03:32:04+00:00",
-      "status": "finished"
-    }
+    "Visit 8581bec0-6912-45af-bc8d-deb3482dff1a: AMB on 2016-11-22T03:32:04+00:00 (status: finished)",
+    "Visit c1dd3e7e-5e07-4f84-b0dc-e2cc083275e8: AMB on 2018-06-07T03:32:04+00:00 (status: finished)",
+    "Visit 985a13d6-2b7c-43df-ae36-b190ebe6f556: AMB on 2013-07-20T03:32:04+00:00 (status: finished)",
+    "Visit 2d51e6e0-9f2e-415d-a7cc-5ed052a538f2: AMB on 2016-11-06T03:32:04+00:00 (status: finished)",
+    "Visit bbac3b1e-0ca6-4cef-aad9-48d03b2bdf8f: AMB on 1973-07-08T03:32:04+00:00 (status: finished)",
+    "Visit 7f40634d-c961-495a-9dc5-fcb5a5f0f884: AMB on 2013-10-20T03:32:04+00:00 (status: finished)",
+    "Visit d269ed69-6678-49e7-b155-75df617f8ae6: AMB on 2011-10-09T03:32:04+00:00 (status: finished)",
+    "Visit cfdd6e1f-545b-4543-9557-2c0fac115583: AMB on 2020-11-29T03:32:04+00:00 (status: finished)",
+    "Visit 90552860-e6da-409b-9372-4f5b55bfd8d9: AMB on 2018-11-18T03:32:04+00:00 (status: finished)",
+    "Visit 247cc8e1-e213-430d-9e6c-a83a16fe30d0: AMB on 2015-11-01T03:32:04+00:00 (status: finished)"
   ]
 }

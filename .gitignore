@@ -1,12 +1,24 @@
 # OAuth 2.0 credentials
-credentials.json
-token.json
+
 run_model.py
 epic_client.py
-ai_summarizer.py_OLDandWorking
 private_key.pem
 public_key.pem
+Get-EpicToken.ps1
 JOURNEY_OF_Hoops.md
+generate_epic_keys.py
+epic_private_key.pem
+epic_public_key_jwk.json
+jwks.json
+*.pem
+*.key
+
+# ── Secrets / Keys ──
+
+credentials.json
+token.json
+epic_token.txt
+
 
 # Environment variables (secrets)
 .env

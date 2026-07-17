@@ -3,7 +3,12 @@ import requests
 import base64
 import json
 import argparse
+import os
 from datetime import datetime, timezone
+from token_exchanger import get_access_token
+
+
+token = get_access_token()  # <--- NEW: generates token via JWT
 
     # Epic FHIR Base URL
 EPIC_FHIR_BASE = "https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4"
@@ -47,13 +52,17 @@ def write_document_reference_to_epic(access_token, patient_id, summary):
         "resourceType": "DocumentReference",
         "status": "current",
         "docStatus": "final",
+
+
         "type": {
             "coding": [{
-                "system": "http://loinc.org",
-                "code": "34133-9",
-                "display": "Summarization of Episode Note"
+            "system": "http://loinc.org",
+            "code": "18842-5",
+            "display": "Clinical Note"
             }]
         },
+
+
         "subject": {"reference": f"Patient/{clean_patient_id}"},
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "content": [{
@@ -97,21 +106,40 @@ def load_summary_file(filepath: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("summary_file", help="Path to summary_output.json")
-    # Removed the access_token argument — we auto-load it.
-    args = parser.parse_args()
     
-    token = get_access_token_from_file()  # <--- NEW: auto-loads epic_token.txt
+
+    parser.add_argument("summary_file", help="Path to summary_output.json")
+    parser.add_argument("--patient_id", help="Override patient ID from file")
+    args = parser.parse_args()
+
+
+    token = get_access_token()
     patient_id, summary = load_summary_file(args.summary_file)
+    if args.patient_id:
+        patient_id = args.patient_id
+    
+    #token = get_access_token_from_file()  # <--- NEW: auto-loads epic_token.txt
+    #parser.add_argument("--patient_id", help="Override patient ID from summary file")
+    #args = parser.parse_args()
+
+    patient_id, summary = load_summary_file(args.summary_file)
+    if args.patient_id:
+        patient_id = args.patient_id
     write_document_reference_to_epic(token, patient_id, summary)
 
 """
 With the DocumentReference ID: XXXXXXXX
 
-Opern browser and run this code:
+Open browser and run this code - HAPI
 
 https://r4.smarthealthit.org/DocumentReference/XXXXXXXX
 
 https://r4.smarthealthit.org/DocumentReference/4739676
+
+
+Open browser and run this code - EPIC FHIR
+✅ Epic write success! DocumentReference ID: e8aJma2uHU4A7MPcx4YplGA3
+
+https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/DocumentReference/e8aJma2uHU4A7MPcx4YplGA3
 
 """

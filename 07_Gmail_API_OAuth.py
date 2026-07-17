@@ -167,6 +167,6 @@ FHIR DocumentReference POST: ✅ Confirmed
 """
 
 # --- Send the Email ---
-RECIPIENT_EMAIL = "gilang4@gmail.com"  # Change to security team or reviewer
+RECIPIENT_EMAIL = "gilang4@yahoo.com"  # Change to security team or reviewer
 send_email(RECIPIENT_EMAIL, EMAIL_SUBJECT, email_body)
 print("📧 Clinical summary email sent!")

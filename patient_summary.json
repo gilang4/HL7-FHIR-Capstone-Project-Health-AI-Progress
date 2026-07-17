@@ -1,284 +1,291 @@
 {
   "patient": {
-    "id": "64cee79e-2414-482a-94e7-e7223936f904",
+    "id": "d4fb3bba-73a9-4b82-a0bc-678d47f386b4",
     "name": "Unknown",
-    "dob": "1953-07-11"
+    "dob": "1980-08-31"
   },
   "conditions": [
+    "Acute viral pharyngitis (disorder)",
+    "Hypertension",
     "Viral sinusitis (disorder)",
-    "Osteoporosis (disorder)",
-    "Acute viral pharyngitis (disorder)",
-    "Acute viral pharyngitis (disorder)",
-    "Anemia (disorder)",
-    "Prediabetes"
+    "Viral sinusitis (disorder)",
+    "Miscarriage in first trimester",
+    "Chronic pain",
+    "Viral sinusitis (disorder)",
+    "Body mass index 30+ - obesity (finding)",
+    "Chronic intractable migraine without aura",
+    "Impacted molars"
   ],
   "medications": [
-    "Alendronic acid 10 MG Oral Tablet"
+    "Hydrochlorothiazide 25 MG",
+    "Camila 28 Day Pack",
+    "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+    "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring"
   ],
   "labs": [
     {
-      "code": "Sodium",
-      "value": "142.49205374280115 mmol/L",
-      "date": "2013-10-20T03:32:04+00:00"
+      "code": "Estimated Glomerular Filtration Rate",
+      "value": "65.6254982213069 mL/min/{1.73_m2}",
+      "date": "2019-03-03T22:30:06+00:00"
     },
     {
-      "code": "Creatinine",
-      "value": "1.144636390445751 mg/dL",
-      "date": "2013-10-20T03:32:04+00:00"
+      "code": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+      "value": "10.198827676180203 fL",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
-      "code": "Carbon Dioxide",
-      "value": "22.27782610166904 mmol/L",
-      "date": "2013-10-20T03:32:04+00:00"
+      "code": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+      "value": "330.34230453436953 fL",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "Platelets [#/volume] in Blood by Automated count",
+      "value": "358.56103362158876 10*3/uL",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "MCV [Entitic volume] by Automated count",
+      "value": "81.08914390061746 fL",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "Hematocrit [Volume Fraction] of Blood by Automated count",
+      "value": "43.18275584368388 %",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "Total Cholesterol",
+      "value": "166.0116376172619 mg/dL",
+      "date": "2019-03-03T22:30:06+00:00"
+    },
+    {
+      "code": "Estimated Glomerular Filtration Rate",
+      "value": "155.90264287631078 mL/min/{1.73_m2}",
+      "date": "2012-09-09T22:30:06+00:00"
+    },
+    {
+      "code": "Estimated Glomerular Filtration Rate",
+      "value": "92.93169990803582 mL/min/{1.73_m2}",
+      "date": "2020-09-20T22:30:06+00:00"
+    },
+    {
+      "code": "Erythrocytes [#/volume] in Blood by Automated count",
+      "value": "4.500395557249695 10*6/uL",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
       "code": "Triglycerides",
-      "value": "149.78503146050113 mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
+      "value": "140.46951767453854 mg/dL",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "5.86931334018925 %",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "code": "Chloride",
-      "value": "101.50275808972849 mmol/L",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "code": "Calcium",
-      "value": "9.68205976090713 mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "code": "Creatinine",
-      "value": "0.920615371548147 mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "code": "Glucose",
-      "value": "89.36554686211187 mg/dL",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "code": "Triglycerides",
-      "value": "133.49762134721632 mg/dL",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "5.831297597943 %",
-      "date": "2011-10-09T03:32:04+00:00"
+      "code": "MCHC [Mass/volume] by Automated count",
+      "value": "34.61417975649618 g/dL",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
       "code": "Low Density Lipoprotein Cholesterol",
-      "value": "95.83978281581741 mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
+      "value": "95.13154189857224 mg/dL",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "5.8296822753908435 %",
-      "date": "2020-11-29T03:32:04+00:00"
+      "code": "Triglycerides",
+      "value": "133.23744610270438 mg/dL",
+      "date": "2012-09-09T22:30:06+00:00"
     },
     {
-      "code": "Creatinine",
-      "value": "1.0303557539369281 mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
+      "code": "MCH [Entitic mass] by Automated count",
+      "value": "28.07749130122359 pg",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
-      "code": "Glucose",
-      "value": "71.21544348824092 mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
+      "code": "Low Density Lipoprotein Cholesterol",
+      "value": "78.55358386794457 mg/dL",
+      "date": "2012-09-09T22:30:06+00:00"
     },
     {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "6.314703848138068 %",
-      "date": "2014-10-26T03:32:04+00:00"
+      "code": "High Density Lipoprotein Cholesterol",
+      "value": "75.9657883966997 mg/dL",
+      "date": "2019-03-03T22:30:06+00:00"
     },
     {
-      "code": "Calcium",
-      "value": "9.46164570470423 mg/dL",
-      "date": "2015-11-01T03:32:04+00:00"
+      "code": "Low Density Lipoprotein Cholesterol",
+      "value": "60.90110765509209 mg/dL",
+      "date": "2019-03-03T22:30:06+00:00"
     },
     {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "6.1211897350241085 %",
-      "date": "2013-10-20T03:32:04+00:00"
+      "code": "Estimated Glomerular Filtration Rate",
+      "value": "126.6923028073694 mL/min/{1.73_m2}",
+      "date": "2013-02-24T22:30:06+00:00"
     },
     {
-      "code": "Hemoglobin A1c/Hemoglobin.total in Blood",
-      "value": "5.968907727265135 %",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "code": "Calcium",
-      "value": "8.915795121552032 mg/dL",
-      "date": "2013-10-20T03:32:04+00:00"
+      "code": "High Density Lipoprotein Cholesterol",
+      "value": "65.74811582749494 mg/dL",
+      "date": "2016-02-28T22:30:06+00:00"
     }
   ],
   "vitals": [
     {
+      "code": "Body Mass Index",
+      "value": "29.591068564630632 kg/m2",
+      "date": "2013-02-24T22:30:06+00:00"
+    },
+    {
       "code": "Body Height",
-      "value": "177.8159251493942 cm",
-      "date": "2017-11-12T03:32:04+00:00"
+      "value": "156.76946634306603 cm",
+      "date": "2016-02-28T22:30:06+00:00"
     },
     {
       "code": "Body Weight",
-      "value": "88.37907566862211 kg",
-      "date": "2018-11-18T03:32:04+00:00"
+      "value": "68.50193719452203 kg",
+      "date": "2020-09-20T22:30:06+00:00"
     },
     {
       "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "1.7959303888080878 {score}",
-      "date": "2018-11-18T03:32:04+00:00"
+      "value": "3.9668279411832366 {score}",
+      "date": "2019-03-03T22:30:06+00:00"
     },
     {
-      "code": "Body Mass Index",
-      "value": "27.951694932207186 kg/m2",
-      "date": "2019-11-24T03:32:04+00:00"
+      "code": "Body Height",
+      "value": "156.76946634306603 cm",
+      "date": "2013-02-24T22:30:06+00:00"
+    },
+    {
+      "code": "Body Weight",
+      "value": "74.15957138521287 kg",
+      "date": "2019-03-03T22:30:06+00:00"
     },
     {
       "code": "Blood Pressure",
       "value": "Unknown",
-      "date": "2015-11-01T03:32:04+00:00"
+      "date": "2012-09-09T22:30:06+00:00"
+    },
+    {
+      "code": "Body Mass Index",
+      "value": "27.872754739058006 kg/m2",
+      "date": "2020-09-20T22:30:06+00:00"
+    },
+    {
+      "code": "Body Mass Index",
+      "value": "28.12412216155774 kg/m2",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": "2.3164161441217974 {score}",
+      "date": "2020-09-20T22:30:06+00:00"
+    },
+    {
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": "1.6151915458673467 {score}",
+      "date": "2016-02-28T22:30:06+00:00"
+    },
+    {
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": "2.756924073235886 {score}",
+      "date": "2013-01-22T22:30:06+00:00"
+    },
+    {
+      "code": "Blood Pressure",
+      "value": "Unknown",
+      "date": "2019-03-03T22:30:06+00:00"
+    },
+    {
+      "code": "Blood Pressure",
+      "value": "Unknown",
+      "date": "2013-02-24T22:30:06+00:00"
+    },
+    {
+      "code": "Body Mass Index",
+      "value": "29.303436091946857 kg/m2",
+      "date": "2012-09-09T22:30:06+00:00"
+    },
+    {
+      "code": "Body Mass Index",
+      "value": "30.174789639949033 kg/m2",
+      "date": "2019-03-03T22:30:06+00:00"
+    },
+    {
+      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": "3.986179072485433 {score}",
+      "date": "2016-09-18T22:30:06+00:00"
     },
     {
       "code": "Oral temperature",
-      "value": "37.60842896131264 Cel",
-      "date": "2013-07-20T03:32:04+00:00"
-    },
-    {
-      "code": "Oral temperature",
-      "value": "37.34014299164179 Cel",
-      "date": "2018-06-07T03:32:04+00:00"
-    },
-    {
-      "code": "Body Weight",
-      "value": "95.10976190187029 kg",
-      "date": "2013-10-20T03:32:04+00:00"
-    },
-    {
-      "code": "Body Mass Index",
-      "value": "30.080412469167744 kg/m2",
-      "date": "2014-10-26T03:32:04+00:00"
+      "value": "37.49308410671919 Cel",
+      "date": "2020-07-15T22:30:06+00:00"
     },
     {
       "code": "Body Height",
-      "value": "177.8159251493942 cm",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "code": "Body Mass Index",
-      "value": "29.671043712059944 kg/m2",
-      "date": "2016-11-06T03:32:04+00:00"
-    },
-    {
-      "code": "Blood Pressure",
-      "value": "Unknown",
-      "date": "2011-10-09T03:32:04+00:00"
-    },
-    {
-      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "0.5533201936356509 {score}",
-      "date": "2017-11-12T03:32:04+00:00"
+      "value": "156.76946634306603 cm",
+      "date": "2012-09-09T22:30:06+00:00"
     },
     {
       "code": "Body Height",
-      "value": "177.8159251493942 cm",
-      "date": "2018-11-18T03:32:04+00:00"
-    },
-    {
-      "code": "Body Mass Index",
-      "value": "30.080412469167744 kg/m2",
-      "date": "2012-10-14T03:32:04+00:00"
-    },
-    {
-      "code": "Body Mass Index",
-      "value": "30.080412469167744 kg/m2",
-      "date": "2011-10-09T03:32:04+00:00"
-    },
-    {
-      "code": "Blood Pressure",
-      "value": "Unknown",
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "code": "Blood Pressure",
-      "value": "Unknown",
-      "date": "2019-11-24T03:32:04+00:00"
-    },
-    {
-      "code": "Body Weight",
-      "value": "88.37907566862211 kg",
-      "date": "2017-11-12T03:32:04+00:00"
-    },
-    {
-      "code": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
-      "value": "3.8998357977455593 {score}",
-      "date": "2014-10-26T03:32:04+00:00"
+      "value": "156.76946634306603 cm",
+      "date": "2019-03-03T22:30:06+00:00"
     }
   ],
   "encounters": [
     {
-      "id": "8581bec0-6912-45af-bc8d-deb3482dff1a",
+      "id": "d092011f-cb35-4609-bdb2-5bf07f7a2cb5",
       "status": "finished",
       "class": "AMB",
-      "start": "2016-11-22T03:32:04+00:00"
+      "start": "2011-12-04T22:30:06+00:00"
     },
     {
-      "id": "c1dd3e7e-5e07-4f84-b0dc-e2cc083275e8",
+      "id": "f0b99fa2-7cdb-4e66-9c40-d3d7fff8036e",
       "status": "finished",
-      "class": "AMB",
-      "start": "2018-06-07T03:32:04+00:00"
+      "class": "EMER",
+      "start": "2016-01-23T22:30:06+00:00"
     },
     {
-      "id": "985a13d6-2b7c-43df-ae36-b190ebe6f556",
+      "id": "c283904c-807f-4190-882a-e41e270544f3",
       "status": "finished",
       "class": "AMB",
-      "start": "2013-07-20T03:32:04+00:00"
+      "start": "2015-12-08T22:30:06+00:00"
     },
     {
-      "id": "2d51e6e0-9f2e-415d-a7cc-5ed052a538f2",
+      "id": "f83f983f-98bf-454c-b066-1cc241456f45",
       "status": "finished",
       "class": "AMB",
-      "start": "2016-11-06T03:32:04+00:00"
+      "start": "2013-08-01T22:30:06+00:00"
     },
     {
-      "id": "bbac3b1e-0ca6-4cef-aad9-48d03b2bdf8f",
+      "id": "43aab501-a67d-476a-9e00-b44bf44f8abf",
       "status": "finished",
       "class": "AMB",
-      "start": "1973-07-08T03:32:04+00:00"
+      "start": "2017-10-31T22:30:06+00:00"
     },
     {
-      "id": "7f40634d-c961-495a-9dc5-fcb5a5f0f884",
+      "id": "82599a48-3f40-49f2-b062-93da2439fc91",
       "status": "finished",
       "class": "AMB",
-      "start": "2013-10-20T03:32:04+00:00"
+      "start": "2013-07-02T22:30:06+00:00"
     },
     {
-      "id": "d269ed69-6678-49e7-b155-75df617f8ae6",
+      "id": "419e653b-74f9-4883-a093-a614d3041eb8",
       "status": "finished",
       "class": "AMB",
-      "start": "2011-10-09T03:32:04+00:00"
+      "start": "2012-12-23T22:30:06+00:00"
     },
     {
-      "id": "cfdd6e1f-545b-4543-9557-2c0fac115583",
+      "id": "b137b001-beb0-4f34-95ef-e36a2ac106ef",
       "status": "finished",
       "class": "AMB",
-      "start": "2020-11-29T03:32:04+00:00"
+      "start": "2021-01-22T22:30:06+00:00"
     },
     {
-      "id": "90552860-e6da-409b-9372-4f5b55bfd8d9",
+      "id": "4043ba32-c256-4e06-a96e-8d9e60bffaf0",
       "status": "finished",
       "class": "AMB",
-      "start": "2018-11-18T03:32:04+00:00"
+      "start": "2014-11-28T22:30:06+00:00"
     },
     {
-      "id": "247cc8e1-e213-430d-9e6c-a83a16fe30d0",
+      "id": "724bf6ae-6073-4fe6-a342-788f12050796",
       "status": "finished",
       "class": "AMB",
-      "start": "2015-11-01T03:32:04+00:00"
+      "start": "2015-03-28T22:30:06+00:00"
     }
   ]
 }
