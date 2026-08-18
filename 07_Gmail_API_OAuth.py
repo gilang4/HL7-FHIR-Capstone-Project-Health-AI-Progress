@@ -127,7 +127,8 @@ from pathlib import Path
 with open("patient_summary.json", "r") as f:
     patient_data = json.load(f)
 
-with open("summary_output.json", "r") as f:
+# 
+with open("summary_output_AzureGPT.json", "r") as f:
     summary_data = json.load(f)
 
 # --- Patient Info ---

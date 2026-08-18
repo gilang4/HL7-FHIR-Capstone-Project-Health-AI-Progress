@@ -1,74 +1,278 @@
 {
-  "patient_id": "9da7d8c2-daef-4722-832e-dcf495d13a4e",
-  "summary": "The patient has recorded conditions including Acute viral pharyngitis (disorder), Polyp of colon, Viral sinusitis (disorder), Stroke, Streptococcal sore throat (disorder), Viral sinusitis (disorder), Hypertension, and Body mass index 30+ - obesity (finding). Medications listed are Hydrochlorothiazide 25 MG and Penicillin V Potassium 500 MG Oral Tablet. Estimated glomerular filtration rate (eGFR) measurements between 2013 and 2020 show variability, including a lower value of 66.23027040212287 mL/min/{1.73_m2} on 2015-04-09 and higher values above 120 mL/min/{1.73_m2} on multiple other dates. Hemoglobin values are similar across available dates (approximately 13.0 g/dL) and BMI values are consistently recorded near 27.5 kg/m2 across multiple visits; an oral temperature of 38.422173476781495 C was recorded on 2016-11-06 and several blood pressure entries are recorded as Unknown. Multiple ambulatory encounters are documented from 1968 through 2020, with the most recent listed on 2020-05-07.",
+  "patient_id": "d48ac962-78c6-46cf-ba33-a24771bfa0e4",
+  "summary": "Patient born 1939-01-27 has documented conditions including Anemia (disorder), Prediabetes, Carcinoma in situ of prostate (disorder), Neoplasm of prostate, two entries of Viral sinusitis (disorder), and Atrial Fibrillation. The medication list includes multiple agents across cardiovascular, oncologic, and antimicrobial classes as recorded in the chart. Hemoglobin A1c values decreased from 6.392278615237807% on 2012-02-17 to 5.990200423104391% on 2015-03-06. Body weight and BMI measurements are consistent across multiple dates (weight ~95.15029616209931 kg; BMI 27.825099842443432 kg/m2). Serum creatinine values are similar across 2015\u20132016 (around 0.83\u20130.846 mg/dL), potassium values show lower values on later measurements (approximately 4.7\u20134.8 mmol/L down to 4.046 mmol/L), pain scores varied over time (approximately 0.19 to 3.56), and several blood pressure entries are recorded as Unknown.",
   "conditions": [
-    "Acute viral pharyngitis (disorder)",
-    "Polyp of colon",
+    "Anemia (disorder)",
+    "Prediabetes",
+    "Carcinoma in situ of prostate (disorder)",
+    "Neoplasm of prostate",
     "Viral sinusitis (disorder)",
-    "Stroke",
-    "Streptococcal sore throat (disorder)",
     "Viral sinusitis (disorder)",
-    "Hypertension",
-    "Body mass index 30+ - obesity (finding)"
+    "Atrial Fibrillation"
   ],
   "medications": [
-    "Hydrochlorothiazide 25 MG",
-    "Penicillin V Potassium 500 MG Oral Tablet"
+    "Verapamil Hydrochloride 40 MG",
+    "Digoxin 0.125 MG Oral Tablet",
+    "1 ML DOCEtaxel 20 MG/ML Injection",
+    "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+    "0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe",
+    "Warfarin Sodium 5 MG Oral Tablet",
+    "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet"
   ],
   "labs": [
-    "Estimated Glomerular Filtration Rate: 158.3248628019419 mL/min/{1.73_m2} (date: 2018-04-26T18:51:00+00:00)",
-    "Platelets [#/volume] in Blood by Automated count: 166.17939225321462 10*3/uL (date: 2017-04-20T18:51:00+00:00)",
-    "MCH [Entitic mass] by Automated count: 29.70428827763894 pg (date: 2017-04-20T18:51:00+00:00)",
-    "Hematocrit [Volume Fraction] of Blood by Automated count: 44.13062540585912 % (date: 2017-04-20T18:51:00+00:00)",
-    "Hemoglobin [Mass/volume] in Blood: 13.09666887181482 g/dL (date: 2017-04-20T18:51:00+00:00)",
-    "Leukocytes [#/volume] in Blood by Automated count: 6.8860173373516 10*3/uL (date: 2017-04-20T18:51:00+00:00)",
-    "Estimated Glomerular Filtration Rate: 142.43222557752372 mL/min/{1.73_m2} (date: 2019-05-02T18:51:00+00:00)",
-    "Platelet mean volume [Entitic volume] in Blood by Automated count: 11.413677712710827 fL (date: 2017-04-20T18:51:00+00:00)",
-    "Erythrocytes [#/volume] in Blood by Automated count: 5.002381861819606 10*6/uL (date: 2017-04-20T18:51:00+00:00)",
-    "Estimated Glomerular Filtration Rate: 127.89128382406741 mL/min/{1.73_m2} (date: 2020-05-07T18:51:00+00:00)",
-    "Estimated Glomerular Filtration Rate: 149.82470841734022 mL/min/{1.73_m2} (date: 2013-03-28T18:51:00+00:00)",
-    "Erythrocyte distribution width [Entitic volume] by Automated count: 39.41203985369585 fL (date: 2017-04-20T18:51:00+00:00)",
-    "Estimated Glomerular Filtration Rate: 138.4908690960238 mL/min/{1.73_m2} (date: 2016-04-14T18:51:00+00:00)",
-    "Estimated Glomerular Filtration Rate: 66.23027040212287 mL/min/{1.73_m2} (date: 2015-04-09T18:51:00+00:00)",
-    "Platelet distribution width [Entitic volume] in Blood by Automated count: 442.6360556428507 fL (date: 2017-04-20T18:51:00+00:00)",
-    "Platelet distribution width [Entitic volume] in Blood by Automated count: 242.5670961353669 fL (date: 2012-03-22T18:51:00+00:00)",
-    "MCHC [Mass/volume] by Automated count: 33.500695831692795 g/dL (date: 2012-03-22T18:51:00+00:00)",
-    "MCH [Entitic mass] by Automated count: 32.79469083290275 pg (date: 2012-03-22T18:51:00+00:00)",
-    "Hemoglobin [Mass/volume] in Blood: 13.0331454915892 g/dL (date: 2012-03-22T18:51:00+00:00)",
-    "Erythrocytes [#/volume] in Blood by Automated count: 5.464869085112207 10*6/uL (date: 2012-03-22T18:51:00+00:00)"
+    {
+      "test": "Hemoglobin A1c/Hemoglobin.total in Blood",
+      "value": 6.392278615237807,
+      "unit": "%",
+      "date": "2012-02-17T10:10:39+00:00"
+    },
+    {
+      "test": "Sodium",
+      "value": 140.77444870425617,
+      "unit": "mmol/L",
+      "date": "2018-07-27T10:10:39+00:00"
+    },
+    {
+      "test": "Carbon Dioxide",
+      "value": 23.345588866679538,
+      "unit": "mmol/L",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Chloride",
+      "value": 108.29274044548052,
+      "unit": "mmol/L",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.786973520375903,
+      "unit": "mmol/L",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.8457804103297716,
+      "unit": "mg/dL",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Glucose",
+      "value": 67.11307554550186,
+      "unit": "mg/dL",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Hemoglobin A1c/Hemoglobin.total in Blood",
+      "value": 5.990200423104391,
+      "unit": "%",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Urea Nitrogen",
+      "value": 13.204910412672216,
+      "unit": "mg/dL",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "test": "Low Density Lipoprotein Cholesterol",
+      "value": 104.83456713881347,
+      "unit": "mg/dL",
+      "date": "2020-11-27T10:10:39+00:00"
+    },
+    {
+      "test": "Triglycerides",
+      "value": 142.30836706305513,
+      "unit": "mg/dL",
+      "date": "2017-07-21T10:10:39+00:00"
+    },
+    {
+      "test": "Carbon Dioxide",
+      "value": 25.610331581617217,
+      "unit": "mmol/L",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Chloride",
+      "value": 107.58381688202846,
+      "unit": "mmol/L",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.711069665235072,
+      "unit": "mmol/L",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Sodium",
+      "value": 138.37679413998248,
+      "unit": "mmol/L",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.8457804103297716,
+      "unit": "mg/dL",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "test": "Carbon Dioxide",
+      "value": 25.049864506175513,
+      "unit": "mmol/L",
+      "date": "2016-07-15T10:10:39+00:00"
+    },
+    {
+      "test": "Chloride",
+      "value": 104.5158283407766,
+      "unit": "mmol/L",
+      "date": "2016-07-15T10:10:39+00:00"
+    },
+    {
+      "test": "Potassium",
+      "value": 4.046405439116269,
+      "unit": "mmol/L",
+      "date": "2016-07-15T10:10:39+00:00"
+    },
+    {
+      "test": "Creatinine",
+      "value": 0.832565091418369,
+      "unit": "mg/dL",
+      "date": "2016-07-15T10:10:39+00:00"
+    }
   ],
   "vitals": [
-    "Body Mass Index: 27.50713083896334 kg/m2 (date: 2019-05-02T18:51:00+00:00)",
-    "Body Height: 154.76890731821103 cm (date: 2017-04-20T18:51:00+00:00)",
-    "Body Height: 154.76890731821103 cm (date: 2020-05-07T18:51:00+00:00)",
-    "Body Mass Index: 27.50713083896334 kg/m2 (date: 2017-04-20T18:51:00+00:00)",
-    "Blood Pressure: Unknown (date: 2014-04-03T18:51:00+00:00)",
-    "Body Mass Index: 27.50713083896334 kg/m2 (date: 2020-05-07T18:51:00+00:00)",
-    "Oral temperature: 38.422173476781495 Cel (date: 2016-11-06T18:51:00+00:00)",
-    "Body Mass Index: 27.50713083896334 kg/m2 (date: 2015-04-09T18:51:00+00:00)",
-    "Body Mass Index: 27.50713083896334 kg/m2 (date: 2013-03-28T18:51:00+00:00)",
-    "Body Weight: 65.88897114356588 kg (date: 2013-03-28T18:51:00+00:00)",
-    "Blood Pressure: Unknown (date: 2013-03-28T18:51:00+00:00)",
-    "Body Weight: 65.88897114356588 kg (date: 2019-05-02T18:51:00+00:00)",
-    "Blood Pressure: Unknown (date: 2017-04-20T18:51:00+00:00)",
-    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 1.584486848916168 {score} (date: 2017-04-20T18:51:00+00:00)",
-    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.4138392193276044 {score} (date: 2019-05-02T18:51:00+00:00)",
-    "Body Weight: 65.88897114356588 kg (date: 2016-04-14T18:51:00+00:00)",
-    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 3.690678512914064 {score} (date: 2013-03-28T18:51:00+00:00)",
-    "Body Height: 154.76890731821103 cm (date: 2013-03-28T18:51:00+00:00)",
-    "Body Height: 154.76890731821103 cm (date: 2018-04-26T18:51:00+00:00)",
-    "Pain severity - 0-10 verbal numeric rating [Score] - Reported: 0.5302863009364676 {score} (date: 2016-04-14T18:51:00+00:00)"
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 0.7791957222443027,
+      "unit": "{score}",
+      "date": "2020-11-27T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 3.5634369211969905,
+      "unit": "{score}",
+      "date": "2019-11-22T10:10:39+00:00"
+    },
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2016-07-15T10:10:39+00:00"
+    },
+    {
+      "type": "Body Height",
+      "value": 184.9212014912284,
+      "unit": "cm",
+      "date": "2019-11-22T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 0.187873152071651,
+      "unit": "{score}",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "type": "Body Mass Index",
+      "value": 27.825099842443432,
+      "unit": "kg/m2",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "type": "Body Mass Index",
+      "value": 27.825099842443432,
+      "unit": "kg/m2",
+      "date": "2018-07-27T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 2.004869755149372,
+      "unit": "{score}",
+      "date": "2017-07-21T10:10:39+00:00"
+    },
+    {
+      "type": "Blood Pressure",
+      "value": "Unknown",
+      "unit": null,
+      "date": "2019-11-22T10:10:39+00:00"
+    },
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2018-07-27T10:10:39+00:00"
+    },
+    {
+      "type": "Body Mass Index",
+      "value": 27.825099842443432,
+      "unit": "kg/m2",
+      "date": "2018-11-16T10:10:39+00:00"
+    },
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2015-03-06T10:10:39+00:00"
+    },
+    {
+      "type": "Blood Pressure",
+      "value": "Unknown",
+      "unit": null,
+      "date": "2014-02-28T10:10:39+00:00"
+    },
+    {
+      "type": "Blood Pressure",
+      "value": "Unknown",
+      "unit": null,
+      "date": "2018-07-27T10:10:39+00:00"
+    },
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2014-02-28T10:10:39+00:00"
+    },
+    {
+      "type": "Body Weight",
+      "value": 95.15029616209931,
+      "unit": "kg",
+      "date": "2012-02-17T10:10:39+00:00"
+    },
+    {
+      "type": "Blood Pressure",
+      "value": "Unknown",
+      "unit": null,
+      "date": "2018-11-16T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 1.7874945565327214,
+      "unit": "{score}",
+      "date": "2015-07-10T10:10:39+00:00"
+    },
+    {
+      "type": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+      "value": 2.7218853423253973,
+      "unit": "{score}",
+      "date": "2013-02-22T10:10:39+00:00"
+    }
   ],
   "encounters": [
-    "Visit 331e1252-0299-4677-8742-e46400b68769: AMB on 2018-04-26T18:51:00+00:00 (status: finished)",
-    "Visit 87bde37c-a3af-4293-9920-43e1effb1eb3: AMB on 2019-05-02T18:51:00+00:00 (status: finished)",
-    "Visit 3bf5f6d3-d643-4e61-aed6-a8ac537c170e: AMB on 2020-05-07T18:51:00+00:00 (status: finished)",
-    "Visit 1ec27619-f85c-4095-8c9a-01268e956bf3: AMB on 2011-06-04T18:51:00+00:00 (status: finished)",
-    "Visit ecce8a8f-d674-40ca-a30d-66590e34e851: AMB on 2016-11-06T18:51:00+00:00 (status: finished)",
-    "Visit f697e903-a4b4-4821-981a-57132c3e962d: AMB on 1987-04-02T18:51:00+00:00 (status: finished)",
-    "Visit 91f36224-ecf9-47e3-bf59-98206b063423: AMB on 1968-03-07T18:51:00+00:00 (status: finished)",
-    "Visit 7766e93c-f286-4217-8ce6-1d78e6dd61f0: AMB on 2010-01-10T18:51:00+00:00 (status: finished)",
-    "Visit 49c371dc-a519-4744-b777-fc0f19b3a19f: AMB on 2013-06-17T18:51:00+00:00 (status: finished)",
-    "Visit 418d632a-39fc-4b50-8363-a0d70e146653: AMB on 2012-01-26T18:51:00+00:00 (status: finished)"
+    "Visit 5eb1c749-e2a9-4461-9da0-3e459135e75a: AMB on 2015-07-10T10:10:39+00:00 (status: finished)",
+    "Visit 1bdf059c-a19d-44e2-921b-549bf4c9dc27: AMB on 1964-08-07T10:10:39+00:00 (status: finished)",
+    "Visit 729a99ff-ede3-4709-8d82-9cdb76e6ff67: AMB on 2014-02-28T10:10:39+00:00 (status: finished)",
+    "Visit dc256ab5-1825-4ce0-b0c8-ef58cc2c68d3: AMB on 2018-07-27T10:10:39+00:00 (status: finished)",
+    "Visit 322e8904-3e45-4efd-895d-486531a3c3cd: AMB on 2019-11-22T10:10:39+00:00 (status: finished)",
+    "Visit a72fa383-35f9-4e87-8ccc-e263181296e1: AMB on 2013-02-22T10:10:39+00:00 (status: finished)",
+    "Visit 15e0eb5c-a8b9-4795-bd55-8cbeacc1a99d: AMB on 2005-07-22T10:10:39+00:00 (status: finished)",
+    "Visit e981d733-bce9-4bd9-88af-dde3d1144807: AMB on 2015-07-02T10:10:39+00:00 (status: finished)",
+    "Visit fe959153-4505-4f00-aa72-9500ac2df046: AMB on 2018-11-09T10:10:39+00:00 (status: finished)",
+    "Visit b64c9b50-dc5a-4161-a8c7-af51acde52ef: AMB on 1994-05-20T10:10:39+00:00 (status: finished)"
   ]
 }

@@ -16,7 +16,8 @@ def generate_summary(patient_data: dict) -> dict:
     Returns: dict with keys: patient_id, summary, conditions, medications, labs, vitals, encounters
     """
     
-    llm = OllamaLLM(model="llama3.2", temperature=0)
+        # llm = OllamaLLM(model="llama3.2", temperature=0)
+    llm = OllamaLLM(model="llama3.2", temperature=0, base_url="http://127.0.0.1:11434")
     ######################################################################################333
     # --- THE UPGRADED PROMPT ---
     
